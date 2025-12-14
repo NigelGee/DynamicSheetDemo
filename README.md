@@ -2,7 +2,11 @@
 
 A project to show dynamic sheet modifier. In this project when tap on icon a fraction sheet will present first then when drag up will a dynamic sheeet present. This sheet will adjust to the size of the content regardless of dynmaic text size.
 
-If no addtional detent size are required then use ` .dynamicSheetDetent()`
+If no addtional detent size are required then use `.dynamicSheetDetent()`
+
+### To Use
+1. Copy [DynamicSheetDetentModifier.swift](DynamicSheetDemo/DynamicSheetDetentModifier.swift) to your project
+2. In a `.sheet` modifier attach `.dynamicSheetDetent(with: )` to the content of sheet
 
 ## License
 
