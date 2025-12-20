@@ -51,6 +51,7 @@ extension View {
     ///
     /// This will also allow to use the standard sheet size when added. If no additional `PresentationDetent` then it will just use the dynamic size.
     /// - Important: It will use smallest `PresentationDetent` first.
+    /// - Important: If variable are passed in it may not work as expected.
     /// - Note: The modifier contain a `ScrollView` that allow scrolling if content is too big. If change to scroll behaviour it need to added to `View` in the `.sheet(isPresented: )`
     func dynamicSheetDetent(with detents: Set<PresentationDetent>? = nil) -> some View {
         modifier(DynamicSheetDetentModifier(detents: detents))
