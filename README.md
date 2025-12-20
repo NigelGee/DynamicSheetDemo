@@ -8,6 +8,8 @@ If no addtional detent size are required then use `.dynamicSheetDetent()`
 1. Copy [DynamicSheetDetentModifier.swift](DynamicSheetDemo/DynamicSheetDetentModifier.swift) to your project
 2. In a `.sheet` modifier attach `.dynamicSheetDetent(with: )` to the content of sheet
 
+Note: If you have to pass in variable to the sheet `View` the `presentationDetents` might not work as expected.
+
 ## License
 
 MIT License.
